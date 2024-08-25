@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+.env
+
+# build output
+dist
+
+# Editor directories and files
+.vscode/*
+.DS_Store
