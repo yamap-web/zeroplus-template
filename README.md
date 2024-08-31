@@ -40,7 +40,7 @@ zeroplus-template/
 ├── backend/
 │   └── .gitignore
 ├── frontend/
-│   ├── [public/]
+│   ├── public/
 │   │   └── favicon.svg
 │   ├── src/
 │   │   ├── components/
