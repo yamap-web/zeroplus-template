@@ -83,6 +83,7 @@ zeroplus-template/
     ```javascript
     const API_URL = import.meta.env.VITE_SERVER_URL;
     ```
+- Viteでの環境変数の扱い方について詳しくは [公式ドキュメント](https://ja.vitejs.dev/guide/env-and-mode)をご覧ください。
 ### `public/`
 - 画像ファイルなどの静的アセットを格納するディレクトリ
 - 現在は`favicon.svg`ファイルが入っています
@@ -90,6 +91,7 @@ zeroplus-template/
 - CSS, TypeScriptのソースコードを格納するディレクトリ
     ### `components/`
     - Reactのコンポーネントファイルを格納するディレクトリ
+    - 空のディレクトリはGitで管理できないため、`.gitkeep`というファイルを配置しています。ディレクトリ内に新しくファイルを作成したときにこちらは削除してください。
     ### `css/`
     - CSSファイルを格納するディレクトリ
         #### `reset.css`
